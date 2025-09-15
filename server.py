@@ -22,7 +22,7 @@ def root():
     return {
         "service": "API для модели классификации спама",
         "description": "Классифицирует сообщения как спам (spam) или не спам (ham)",
-        "endpoints": ["/predict", "/model-info"],
+        "endpoints": ["/", "/predict", "/predict_batch"],
         "author": "Рольщиков Максим",
     }
 
