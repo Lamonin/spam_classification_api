@@ -1,6 +1,6 @@
 # spam_classification_api
 
-A repository for building and deploying a spam classification API.
+A repository for building and deploying a spam classification API. Used [dataset](https://www.kaggle.com/datasets/abdmental01/email-spam-dedection) to train the model.
 
 ## Overview
 
@@ -20,3 +20,4 @@ This project provides an API for detecting spam in messages using machine learni
 4. Run `uv sync` command to load dependencies
 5. Run server with command `uv run uvicorn server:app`
 6. Enjoy!
+
